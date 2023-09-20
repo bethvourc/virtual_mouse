@@ -8,7 +8,6 @@ import win32ctypes
 import pyautogui
  
  
- 
 mp_drawing = mp.solutions.drawing_utils
 mp_hands =  mp.solutions.hands
 click=0
