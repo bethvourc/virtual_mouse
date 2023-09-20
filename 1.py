@@ -13,7 +13,7 @@ mp_drawing = mp.solutions.drawing_utils
 mp_hands =  mp.solutions.hands
 click=0
  
-video = cv2.VideoCapture(1)
+video = cv2.VideoCapture(0)
  
 with mp_hands.Hands(min_detection_confidence=0.8, min_tracking_confidence=0.8) as hands: 
     while video.isOpened():
